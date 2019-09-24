@@ -8,5 +8,5 @@ def reverse_string(string):
 
 
 def run():
-    t = reverse_string('test')
+    t = reverse_string('Reverse this string')
     print(t)
