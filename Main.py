@@ -1,3 +1,3 @@
-from breadMaker.BreadMaker import run
+from fibonacci.Fibonacci import run
 
 run()
