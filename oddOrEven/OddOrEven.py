@@ -1,6 +1,3 @@
-from fibonacci.Fibonacci import fibonacci
-
-
 def odd_or_even(number):
     if number % 2 == 0:
         print(number, 'even')
@@ -9,6 +6,9 @@ def odd_or_even(number):
 
 
 def run():
-    number_list = fibonacci(1, 20)
+    number_list = [1, 3, 4, 8, 6, 5, 3]
     for number in number_list:
         odd_or_even(number)
+
+
+run()

@@ -18,4 +18,4 @@ def empty_square(x):
 
 
 def run():
-    square(5)
+    square(10)
